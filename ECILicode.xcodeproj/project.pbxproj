@@ -10,22 +10,100 @@
 		58AA7DC71F29B4F400976AF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DC61F29B4F400976AF8 /* main.m */; };
 		58AA7DCA1F29B4F400976AF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DC91F29B4F400976AF8 /* AppDelegate.m */; };
 		58AA7DCD1F29B4F400976AF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DCC1F29B4F400976AF8 /* ViewController.m */; };
-		58AA7DD01F29B4F400976AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AA7DCE1F29B4F400976AF8 /* Main.storyboard */; };
 		58AA7DD21F29B4F400976AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AA7DD11F29B4F400976AF8 /* Assets.xcassets */; };
 		58AA7DD51F29B4F400976AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AA7DD31F29B4F400976AF8 /* LaunchScreen.storyboard */; };
+		58AA7DFB1F29B50300976AF8 /* ECPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DDE1F29B50300976AF8 /* ECPlayerView.m */; };
+		58AA7DFC1F29B50300976AF8 /* ECRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DE01F29B50300976AF8 /* ECRoom.m */; };
+		58AA7DFD1F29B50300976AF8 /* ECStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DE31F29B50300976AF8 /* ECStream.m */; };
+		58AA7DFE1F29B50300976AF8 /* ErizoClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DE51F29B50300976AF8 /* ErizoClient.m */; };
+		58AA7DFF1F29B50300976AF8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 58AA7DE61F29B50300976AF8 /* LICENSE */; };
+		58AA7E001F29B50300976AF8 /* ECClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DEA1F29B50300976AF8 /* ECClient.m */; };
+		58AA7E011F29B50300976AF8 /* ECSignalingChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DEE1F29B50300976AF8 /* ECSignalingChannel.m */; };
+		58AA7E021F29B50300976AF8 /* ECSignalingMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DF01F29B50300976AF8 /* ECSignalingMessage.m */; };
+		58AA7E031F29B50300976AF8 /* RTCICECandidate+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DF21F29B50300976AF8 /* RTCICECandidate+JSON.m */; };
+		58AA7E041F29B50300976AF8 /* RTCICEServer+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DF41F29B50300976AF8 /* RTCICEServer+JSON.m */; };
+		58AA7E051F29B50300976AF8 /* RTCSessionDescription+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DF61F29B50300976AF8 /* RTCSessionDescription+JSON.m */; };
+		58AA7E061F29B50300976AF8 /* SDPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DF81F29B50300976AF8 /* SDPUtils.m */; };
+		58AA7E071F29B50300976AF8 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7DFA1F29B50300976AF8 /* Utilities.m */; };
+		58AA7E091F29B57E00976AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AA7E081F29B57E00976AF8 /* Main.storyboard */; };
+		58AA7E0C1F29B58800976AF8 /* MultiConferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7E0B1F29B58800976AF8 /* MultiConferenceViewController.m */; };
+		58AA7E111F29B58E00976AF8 /* LicodeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7E0E1F29B58E00976AF8 /* LicodeServer.m */; };
+		58AA7E121F29B58E00976AF8 /* Nuve.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7E101F29B58E00976AF8 /* Nuve.m */; };
+		58AA7E191F29B68100976AF8 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA7E181F29B68100976AF8 /* Logger.m */; };
+		58AA7E1C1F29B6B400976AF8 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AA7E1B1F29B6B400976AF8 /* SocketIO.framework */; };
+		58AA7E1E1F29B6CF00976AF8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AA7E1D1F29B6CF00976AF8 /* libz.tbd */; };
+		58AA7E201F29B6D400976AF8 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AA7E1F1F29B6D400976AF8 /* JavaScriptCore.framework */; };
+		58AA7E221F29B75C00976AF8 /* SocketIO.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58AA7E1B1F29B6B400976AF8 /* SocketIO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9A04E3BC608C6F2D54B0C703 /* libPods-ECILicode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B67B16CBE0BC93883635C5E8 /* libPods-ECILicode.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		58AA7E211F29B74C00976AF8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				58AA7E221F29B75C00976AF8 /* SocketIO.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1BB6C40A12C61656B3A58841 /* Pods-ECILicode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECILicode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ECILicode/Pods-ECILicode.debug.xcconfig"; sourceTree = "<group>"; };
+		30D7BE7644D4DF7780F561A5 /* Pods-ECILicode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECILicode.release.xcconfig"; path = "Pods/Target Support Files/Pods-ECILicode/Pods-ECILicode.release.xcconfig"; sourceTree = "<group>"; };
 		58AA7DC21F29B4F400976AF8 /* ECILicode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECILicode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AA7DC61F29B4F400976AF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58AA7DC81F29B4F400976AF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58AA7DC91F29B4F400976AF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		58AA7DCB1F29B4F400976AF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		58AA7DCC1F29B4F400976AF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		58AA7DCF1F29B4F400976AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58AA7DD11F29B4F400976AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58AA7DD41F29B4F400976AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58AA7DD61F29B4F400976AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AA7DDD1F29B50300976AF8 /* ECPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPlayerView.h; sourceTree = "<group>"; };
+		58AA7DDE1F29B50300976AF8 /* ECPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPlayerView.m; sourceTree = "<group>"; };
+		58AA7DDF1F29B50300976AF8 /* ECRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECRoom.h; sourceTree = "<group>"; };
+		58AA7DE01F29B50300976AF8 /* ECRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECRoom.m; sourceTree = "<group>"; };
+		58AA7DE11F29B50300976AF8 /* ECRoomStatsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECRoomStatsProtocol.h; sourceTree = "<group>"; };
+		58AA7DE21F29B50300976AF8 /* ECStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECStream.h; sourceTree = "<group>"; };
+		58AA7DE31F29B50300976AF8 /* ECStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECStream.m; sourceTree = "<group>"; };
+		58AA7DE41F29B50300976AF8 /* ErizoClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErizoClient.h; sourceTree = "<group>"; };
+		58AA7DE51F29B50300976AF8 /* ErizoClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErizoClient.m; sourceTree = "<group>"; };
+		58AA7DE61F29B50300976AF8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		58AA7DE81F29B50300976AF8 /* ECClient+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ECClient+Internal.h"; sourceTree = "<group>"; };
+		58AA7DE91F29B50300976AF8 /* ECClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECClient.h; sourceTree = "<group>"; };
+		58AA7DEA1F29B50300976AF8 /* ECClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECClient.m; sourceTree = "<group>"; };
+		58AA7DEB1F29B50300976AF8 /* ECClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECClientDelegate.h; sourceTree = "<group>"; };
+		58AA7DEC1F29B50300976AF8 /* ECClientState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECClientState.h; sourceTree = "<group>"; };
+		58AA7DED1F29B50300976AF8 /* ECSignalingChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSignalingChannel.h; sourceTree = "<group>"; };
+		58AA7DEE1F29B50300976AF8 /* ECSignalingChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSignalingChannel.m; sourceTree = "<group>"; };
+		58AA7DEF1F29B50300976AF8 /* ECSignalingMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSignalingMessage.h; sourceTree = "<group>"; };
+		58AA7DF01F29B50300976AF8 /* ECSignalingMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSignalingMessage.m; sourceTree = "<group>"; };
+		58AA7DF11F29B50300976AF8 /* RTCICECandidate+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCICECandidate+JSON.h"; sourceTree = "<group>"; };
+		58AA7DF21F29B50300976AF8 /* RTCICECandidate+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTCICECandidate+JSON.m"; sourceTree = "<group>"; };
+		58AA7DF31F29B50300976AF8 /* RTCICEServer+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCICEServer+JSON.h"; sourceTree = "<group>"; };
+		58AA7DF41F29B50300976AF8 /* RTCICEServer+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTCICEServer+JSON.m"; sourceTree = "<group>"; };
+		58AA7DF51F29B50300976AF8 /* RTCSessionDescription+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCSessionDescription+JSON.h"; sourceTree = "<group>"; };
+		58AA7DF61F29B50300976AF8 /* RTCSessionDescription+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTCSessionDescription+JSON.m"; sourceTree = "<group>"; };
+		58AA7DF71F29B50300976AF8 /* SDPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPUtils.h; sourceTree = "<group>"; };
+		58AA7DF81F29B50300976AF8 /* SDPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPUtils.m; sourceTree = "<group>"; };
+		58AA7DF91F29B50300976AF8 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		58AA7DFA1F29B50300976AF8 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		58AA7E081F29B57E00976AF8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		58AA7E0A1F29B58800976AF8 /* MultiConferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiConferenceViewController.h; sourceTree = "<group>"; };
+		58AA7E0B1F29B58800976AF8 /* MultiConferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiConferenceViewController.m; sourceTree = "<group>"; };
+		58AA7E0D1F29B58E00976AF8 /* LicodeServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicodeServer.h; sourceTree = "<group>"; };
+		58AA7E0E1F29B58E00976AF8 /* LicodeServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicodeServer.m; sourceTree = "<group>"; };
+		58AA7E0F1F29B58E00976AF8 /* Nuve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nuve.h; sourceTree = "<group>"; };
+		58AA7E101F29B58E00976AF8 /* Nuve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nuve.m; sourceTree = "<group>"; };
+		58AA7E171F29B68100976AF8 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = "/Users/mac-mini/Documents/ErizoClientIOS/Vendor/Logger/Logger.h"; sourceTree = "<absolute>"; };
+		58AA7E181F29B68100976AF8 /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Logger.m; path = "/Users/mac-mini/Documents/ErizoClientIOS/Vendor/Logger/Logger.m"; sourceTree = "<absolute>"; };
+		58AA7E1B1F29B6B400976AF8 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SocketIO.framework; sourceTree = "<group>"; };
+		58AA7E1D1F29B6CF00976AF8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		58AA7E1F1F29B6D400976AF8 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		B67B16CBE0BC93883635C5E8 /* libPods-ECILicode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ECILicode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +111,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58AA7E201F29B6D400976AF8 /* JavaScriptCore.framework in Frameworks */,
+				58AA7E1E1F29B6CF00976AF8 /* libz.tbd in Frameworks */,
+				9A04E3BC608C6F2D54B0C703 /* libPods-ECILicode.a in Frameworks */,
+				58AA7E1C1F29B6B400976AF8 /* SocketIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AA085E5CFCCB76A755157D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58AA7E1F1F29B6D400976AF8 /* JavaScriptCore.framework */,
+				58AA7E1D1F29B6CF00976AF8 /* libz.tbd */,
+				58AA7E1B1F29B6B400976AF8 /* SocketIO.framework */,
+				B67B16CBE0BC93883635C5E8 /* libPods-ECILicode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3181777E71A7AC65E0C6B31B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BB6C40A12C61656B3A58841 /* Pods-ECILicode.debug.xcconfig */,
+				30D7BE7644D4DF7780F561A5 /* Pods-ECILicode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		58AA7DB91F29B4F400976AF8 = {
 			isa = PBXGroup;
 			children = (
 				58AA7DC41F29B4F400976AF8 /* ECILicode */,
 				58AA7DC31F29B4F400976AF8 /* Products */,
+				3181777E71A7AC65E0C6B31B /* Pods */,
+				1AA085E5CFCCB76A755157D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +162,19 @@
 		58AA7DC41F29B4F400976AF8 /* ECILicode */ = {
 			isa = PBXGroup;
 			children = (
+				58AA7E151F29B59700976AF8 /* Logger */,
+				58AA7DDC1F29B50300976AF8 /* ErizoClient */,
 				58AA7DC81F29B4F400976AF8 /* AppDelegate.h */,
 				58AA7DC91F29B4F400976AF8 /* AppDelegate.m */,
 				58AA7DCB1F29B4F400976AF8 /* ViewController.h */,
 				58AA7DCC1F29B4F400976AF8 /* ViewController.m */,
-				58AA7DCE1F29B4F400976AF8 /* Main.storyboard */,
+				58AA7E0A1F29B58800976AF8 /* MultiConferenceViewController.h */,
+				58AA7E0B1F29B58800976AF8 /* MultiConferenceViewController.m */,
+				58AA7E0D1F29B58E00976AF8 /* LicodeServer.h */,
+				58AA7E0E1F29B58E00976AF8 /* LicodeServer.m */,
+				58AA7E0F1F29B58E00976AF8 /* Nuve.h */,
+				58AA7E101F29B58E00976AF8 /* Nuve.m */,
+				58AA7E081F29B57E00976AF8 /* Main.storyboard */,
 				58AA7DD11F29B4F400976AF8 /* Assets.xcassets */,
 				58AA7DD31F29B4F400976AF8 /* LaunchScreen.storyboard */,
 				58AA7DD61F29B4F400976AF8 /* Info.plist */,
@@ -79,6 +191,60 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		58AA7DDC1F29B50300976AF8 /* ErizoClient */ = {
+			isa = PBXGroup;
+			children = (
+				58AA7DDD1F29B50300976AF8 /* ECPlayerView.h */,
+				58AA7DDE1F29B50300976AF8 /* ECPlayerView.m */,
+				58AA7DDF1F29B50300976AF8 /* ECRoom.h */,
+				58AA7DE01F29B50300976AF8 /* ECRoom.m */,
+				58AA7DE11F29B50300976AF8 /* ECRoomStatsProtocol.h */,
+				58AA7DE21F29B50300976AF8 /* ECStream.h */,
+				58AA7DE31F29B50300976AF8 /* ECStream.m */,
+				58AA7DE41F29B50300976AF8 /* ErizoClient.h */,
+				58AA7DE51F29B50300976AF8 /* ErizoClient.m */,
+				58AA7DE61F29B50300976AF8 /* LICENSE */,
+				58AA7DE71F29B50300976AF8 /* rtc */,
+			);
+			path = ErizoClient;
+			sourceTree = "<group>";
+		};
+		58AA7DE71F29B50300976AF8 /* rtc */ = {
+			isa = PBXGroup;
+			children = (
+				58AA7DE81F29B50300976AF8 /* ECClient+Internal.h */,
+				58AA7DE91F29B50300976AF8 /* ECClient.h */,
+				58AA7DEA1F29B50300976AF8 /* ECClient.m */,
+				58AA7DEB1F29B50300976AF8 /* ECClientDelegate.h */,
+				58AA7DEC1F29B50300976AF8 /* ECClientState.h */,
+				58AA7DED1F29B50300976AF8 /* ECSignalingChannel.h */,
+				58AA7DEE1F29B50300976AF8 /* ECSignalingChannel.m */,
+				58AA7DEF1F29B50300976AF8 /* ECSignalingMessage.h */,
+				58AA7DF01F29B50300976AF8 /* ECSignalingMessage.m */,
+				58AA7DF11F29B50300976AF8 /* RTCICECandidate+JSON.h */,
+				58AA7DF21F29B50300976AF8 /* RTCICECandidate+JSON.m */,
+				58AA7DF31F29B50300976AF8 /* RTCICEServer+JSON.h */,
+				58AA7DF41F29B50300976AF8 /* RTCICEServer+JSON.m */,
+				58AA7DF51F29B50300976AF8 /* RTCSessionDescription+JSON.h */,
+				58AA7DF61F29B50300976AF8 /* RTCSessionDescription+JSON.m */,
+				58AA7DF71F29B50300976AF8 /* SDPUtils.h */,
+				58AA7DF81F29B50300976AF8 /* SDPUtils.m */,
+				58AA7DF91F29B50300976AF8 /* Utilities.h */,
+				58AA7DFA1F29B50300976AF8 /* Utilities.m */,
+			);
+			path = rtc;
+			sourceTree = "<group>";
+		};
+		58AA7E151F29B59700976AF8 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				58AA7E171F29B68100976AF8 /* Logger.h */,
+				58AA7E181F29B68100976AF8 /* Logger.m */,
+			);
+			name = Logger;
+			path = "/Users/mac-mini/Documents/develop/ECIExampleLicode/ECIExampleLicode/../../Vendor/Logger";
+			sourceTree = "<absolute>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +252,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58AA7DD91F29B4F400976AF8 /* Build configuration list for PBXNativeTarget "ECILicode" */;
 			buildPhases = (
+				7F60066D4E51969CDB4D6E8C /* [CP] Check Pods Manifest.lock */,
 				58AA7DBE1F29B4F400976AF8 /* Sources */,
 				58AA7DBF1F29B4F400976AF8 /* Frameworks */,
 				58AA7DC01F29B4F400976AF8 /* Resources */,
+				467F6FCF994DE5B8F885ACAE /* [CP] Embed Pods Frameworks */,
+				9AF8616708EBE4A7232CA3A0 /* [CP] Copy Pods Resources */,
+				58AA7E211F29B74C00976AF8 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -140,34 +310,91 @@
 			files = (
 				58AA7DD51F29B4F400976AF8 /* LaunchScreen.storyboard in Resources */,
 				58AA7DD21F29B4F400976AF8 /* Assets.xcassets in Resources */,
-				58AA7DD01F29B4F400976AF8 /* Main.storyboard in Resources */,
+				58AA7DFF1F29B50300976AF8 /* LICENSE in Resources */,
+				58AA7E091F29B57E00976AF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		467F6FCF994DE5B8F885ACAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ECILicode/Pods-ECILicode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F60066D4E51969CDB4D6E8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AF8616708EBE4A7232CA3A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ECILicode/Pods-ECILicode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58AA7DBE1F29B4F400976AF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58AA7E011F29B50300976AF8 /* ECSignalingChannel.m in Sources */,
 				58AA7DCD1F29B4F400976AF8 /* ViewController.m in Sources */,
+				58AA7DFD1F29B50300976AF8 /* ECStream.m in Sources */,
+				58AA7E061F29B50300976AF8 /* SDPUtils.m in Sources */,
+				58AA7E031F29B50300976AF8 /* RTCICECandidate+JSON.m in Sources */,
+				58AA7E041F29B50300976AF8 /* RTCICEServer+JSON.m in Sources */,
+				58AA7DFB1F29B50300976AF8 /* ECPlayerView.m in Sources */,
+				58AA7E021F29B50300976AF8 /* ECSignalingMessage.m in Sources */,
+				58AA7E051F29B50300976AF8 /* RTCSessionDescription+JSON.m in Sources */,
+				58AA7E071F29B50300976AF8 /* Utilities.m in Sources */,
+				58AA7E111F29B58E00976AF8 /* LicodeServer.m in Sources */,
 				58AA7DCA1F29B4F400976AF8 /* AppDelegate.m in Sources */,
+				58AA7E001F29B50300976AF8 /* ECClient.m in Sources */,
+				58AA7E0C1F29B58800976AF8 /* MultiConferenceViewController.m in Sources */,
 				58AA7DC71F29B4F400976AF8 /* main.m in Sources */,
+				58AA7DFC1F29B50300976AF8 /* ECRoom.m in Sources */,
+				58AA7DFE1F29B50300976AF8 /* ErizoClient.m in Sources */,
+				58AA7E121F29B58E00976AF8 /* Nuve.m in Sources */,
+				58AA7E191F29B68100976AF8 /* Logger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		58AA7DCE1F29B4F400976AF8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58AA7DCF1F29B4F400976AF8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		58AA7DD31F29B4F400976AF8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -273,25 +500,45 @@
 		};
 		58AA7DDA1F29B4F400976AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB6C40A12C61656B3A58841 /* Pods-ECILicode.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8VXJWE28Q2;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ECILicode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "talk-cloud.ECILicode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
 		58AA7DDB1F29B4F400976AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D7BE7644D4DF7780F561A5 /* Pods-ECILicode.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8VXJWE28Q2;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ECILicode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "talk-cloud.ECILicode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
@@ -314,6 +561,7 @@
 				58AA7DDB1F29B4F400976AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
