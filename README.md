@@ -1,0 +1,3 @@
+# ECILicode
+
+在MultiConferenceViewController的connect方法中选择具体的连接方法。一些方法被注释掉了，可以取消注释使用。
